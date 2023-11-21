@@ -46,7 +46,7 @@
 
 </script>
 
-<div class="container mx-auto">
+<div class="max-w-screen-md mx-auto my-10">
     <ul class="timeline timeline-snap-icon timeline-compact timeline-vertical">
         {#each skillPerYearList as entry}
             <li>
@@ -55,9 +55,9 @@
                 </div>
                 <div class="timeline-start mb-10">
                     <time class="font-mono italic">{entry.year}</time>
-                    <div class="grid grid-cols-6 gap-2">
+                    <div class="grid grid-cols-4 gap-2">
                         {#each entry.skillList as skill}
-                            <div class="card w-full bg-base-200 shadow-xl">
+                            <div class="card w-full bg-[#202127] shadow-xl">
                                 <figure class="px-5 pt-5">
                                     <Icon icon="{skill.icon}" width="100%" />
                                 </figure>
