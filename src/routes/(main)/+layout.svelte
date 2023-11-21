@@ -1,5 +1,5 @@
 <script>
-    import "../app.pcss"
+    import "../../app.pcss"
     import '@fontsource/press-start-2p';
     import Footer from "$lib/components/Footer.svelte";
     import Header from "$lib/components/Header.svelte";
