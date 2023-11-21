@@ -46,6 +46,11 @@
 
 </script>
 
+<svelte:head>
+    <title>skills</title>
+    <html lang="en" />
+</svelte:head>
+
 <div class="max-w-screen-md mx-auto my-10 ml-2 mr-5">
     <ul class="timeline timeline-snap-icon timeline-compact timeline-vertical">
         {#each skillPerYearList as entry}

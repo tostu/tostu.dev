@@ -4,6 +4,11 @@
 
 </script>
 
+<svelte:head>
+    <title>tostu</title>
+    <html lang="en" />
+</svelte:head>
+
 <div class="container mx-auto">
     <div class="">
         <div class="mx-auto max-w-2xl text-center flex flex-col items-center justify-center space-y-10">
