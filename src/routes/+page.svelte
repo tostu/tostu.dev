@@ -6,7 +6,6 @@
 
 <svelte:head>
     <title>tostu</title>
-    <html lang="en" />
 </svelte:head>
 
 <div class="container mx-auto">

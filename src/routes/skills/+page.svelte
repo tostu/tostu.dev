@@ -48,7 +48,6 @@
 
 <svelte:head>
     <title>skills</title>
-    <html lang="en" />
 </svelte:head>
 
 <div class="max-w-screen-md mx-auto my-10 ml-2 mr-5">
