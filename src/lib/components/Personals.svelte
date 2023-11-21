@@ -10,7 +10,7 @@
 
 </script>
 
-<div class="card w-80 bg-base-200 shadow-xl">
+<div class="card w-80 bg-[#202127] shadow-xl">
     <div class="card-body">
         {#each personalDataList as entry}
             <div class="flex flex-row items-center text-start">
