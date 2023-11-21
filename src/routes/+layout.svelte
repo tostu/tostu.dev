@@ -5,7 +5,7 @@
     import Header from "$lib/components/Header.svelte";
 </script>
 
-<div class="min-h-screen flex flex-col justify-between">
+<div class="min-h-[100svh] max-h-[100svh] flex flex-col justify-between">
     <Header></Header>
     <slot></slot>
     <Footer></Footer>
