@@ -55,7 +55,7 @@
                 </div>
                 <div class="timeline-start mb-10">
                     <time class="font-mono italic">{entry.year}</time>
-                    <div class="grid grid-cols-4 gap-2">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
                         {#each entry.skillList as skill}
                             <div class="card w-full bg-[#202127] shadow-xl">
                                 <figure class="px-5 pt-5">
