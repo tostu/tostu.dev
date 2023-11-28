@@ -1,5 +1,5 @@
 <script>
-    import avatar from "$lib/assets/images/tostu_avatar.png"
+    import avatar from "$lib/assets/images/tostu_avatar.webp"
     import Personals from "$lib/components/Personals.svelte";
     import '@fontsource/press-start-2p/latin.css';
 
