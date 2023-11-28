@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "vite dev --host",
 		"cmsproxy": "npx @staticcms/proxy-server",
-		"build": "vite build",
+		"build": "vite build && cp _routes.json ./build/",
 		"preview": "vite preview --host",
 		"test": "playwright test",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -40,10 +40,6 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/press-start-2p": "^5.0.17",
-		"@iconify/icons-devicon": "^1.2.17",
-		"@iconify/icons-pixelarticons": "^1.2.5",
-		"@iconify/icons-skill-icons": "^1.2.1",
-		"@iconify/svelte": "^3.1.4",
 		"@staticcms/core": "^3.4.5"
 	}
 }
