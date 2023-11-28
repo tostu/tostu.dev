@@ -1,7 +1,13 @@
 import type { Config } from "@staticcms/core";
 
 const config: Config = {
-    backend: { name: "github", repo: 'tostu/tostu.dev', branch: "master" },
+    backend: {
+        name: "github",
+        repo: 'tostu/tostu.dev',
+        branch: "master",
+        api_root: "https://api.github.com",
+        base_url: "https://api.netlify.com"
+    },
     // local_backend: true,
     media_folder: "static/images",
     public_folder: "images",
