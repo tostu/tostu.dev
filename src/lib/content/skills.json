@@ -1,0 +1,103 @@
+{
+  "year": [
+    {
+      "year": 2017,
+      "skill": [
+        {
+          "name": "HTML",
+          "icon": "src/lib/assets/images/html5-original.svg"
+        },
+        {
+          "name": "CSS",
+          "icon": "src/lib/assets/images/css3-original.svg"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "skill": [
+        {
+          "name": "JAVA",
+          "icon": "src/lib/assets/images/java-original.svg"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "skill": [
+        {
+          "name": "JavaScript",
+          "icon": "src/lib/assets/images/javascript-original.svg"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "skill": [
+        {
+          "name": "Node.js",
+          "icon": "src/lib/assets/images/nodejs-original.svg"
+        },
+        {
+          "name": "Express.js",
+          "icon": "src/lib/assets/images/express-original.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "src/lib/assets/images/bootstrap-original.svg"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "skill": [
+        {
+          "name": "Vue.js 2",
+          "icon": "src/lib/assets/images/vuejs-original.svg"
+        },
+        {
+          "name": "Vuetify",
+          "icon": "src/lib/assets/images/vuetify-original.svg"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "src/lib/assets/images/mongodb-original.svg"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "skill": [
+        {
+          "name": "MySQL",
+          "icon": "src/lib/assets/images/mysql-original-wordmark.svg"
+        },
+        {
+          "name": "Coffeescript",
+          "icon": "src/lib/assets/images/coffeescript-original.svg"
+        },
+        {
+          "name": "Docker",
+          "icon": "src/lib/assets/images/docker-plain-wordmark.svg"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "skill": [
+        {
+          "name": "Svelte",
+          "icon": "src/lib/assets/images/svelte-original.svg"
+        },
+        {
+          "name": "TailwindCSS",
+          "icon": "src/lib/assets/images/tailwindcss-plain.svg"
+        },
+        {
+          "name": "Spring Boot",
+          "icon": "src/lib/assets/images/spring-original.svg"
+        }
+      ]
+    }
+  ]
+}
