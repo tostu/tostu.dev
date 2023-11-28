@@ -6,10 +6,8 @@ const config: Config = {
         repo: 'tostu/tostu.dev',
         branch: "master",
         api_root: "https://api.github.com",
-        base_url: "https://api.netlify.com",
-        app_id: "c1c3be7fa1aa599b444a",
+        base_url: "tostu.dev",
         site_domain: "tostu.dev",
-        auth_endpoint: "auth"
     },
     // local_backend: true,
     media_folder: "static/images",
