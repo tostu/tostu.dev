@@ -1,54 +1,16 @@
 <script>
     import Icon from '@iconify/svelte';
 
-    const skillPerYearList = [
-        {year:"2023", skillList: [
-                {icon:"devicon:svelte", name:"Svelte"},
-                {icon:"devicon:tailwindcss", name:"TailwindCSS"},
-                {icon:"devicon:cloudflareworkers", name:"Cloudflare Workers"},
-                {icon:"devicon:spring", name:"Spring Boot"},
-            ]
-        },
-        {year:"2022", skillList: [
-                {icon:"devicon:mysql-wordmark", name:"MySQL"},
-                {icon:"devicon:coffeescript", name:"coffeescript"},
-                {icon:"vscode-icons:file-type-pug", name:"pug"},
-                {icon:"devicon:docker", name:"Docker"},
-            ]
-        },
-        {year:"2021", skillList: [
-                {icon:"devicon:vuejs", name:"VueJS"},
-                {icon:"devicon:vuetify", name:"Vuetify"},
-                {icon:"devicon:mongodb", name:"mongodb"},
-                {icon:"devicon:mongoose", name:"mongoose"},
-            ]
-        },
-        {year:"2020", skillList: [
-                {icon:"devicon:nodejs", name:"NodeJS"},
-                {icon:"skill-icons:expressjs-dark", name:"ExpressJS"},
-                {icon:"devicon:bootstrap", name:"Bootstrap"}
-            ]
-        },
-        {year:"2019", skillList: [
-                {icon:"skill-icons:javascript", name:"JavaScript"}
-            ]
-        },
-        {year:"2018", skillList: [
-                {icon:"skill-icons:java-light", name:"JAVA"}
-            ]
-        },
-        {year:"2017", skillList: [
-                {icon:"skill-icons:html", name:"HTML"},
-                {icon:"skill-icons:css", name:"CSS"}
-            ]
-        },
-    ]
+    import skills from '$lib/content/skills.json'
+
+    const skillPerYearList = skills.year
 
 </script>
 
 <svelte:head>
     <title>skills</title>
 </svelte:head>
+
 <div class="container mx-auto flex justify-center">
     <div class="max-w-screen-md my-10 ml-2 mr-5">
         <ul class="timeline timeline-snap-icon timeline-compact timeline-vertical">
@@ -60,10 +22,10 @@
                     <div class="timeline-start mb-10">
                         <time class="font-mono italic">{entry.year}</time>
                         <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
-                            {#each entry.skillList as skill}
+                            {#each entry.skill as skill}
                                 <div class="group card w-full bg-[#202127] shadow-xl">
                                     <figure class="group-hover:scale-110 px-5 pt-5">
-                                        <Icon icon="{skill.icon}" width="100%" />
+                                        <img src={skill.icon} width="100%" alt="">
                                     </figure>
                                     <div class="card-body items-center text-center">
                                         <h2 class="card-title">{skill.name}</h2>
