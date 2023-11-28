@@ -1,67 +1,19 @@
 {
   "year": [
     {
-      "year": 2017,
+      "year": 2023,
       "skill": [
         {
-          "name": "HTML",
-          "icon": "/images/html5-original.svg"
+          "name": "Svelte",
+          "icon": "/images/svelte-original.svg"
         },
         {
-          "name": "CSS",
-          "icon": "/images/css3-original.svg"
-        }
-      ]
-    },
-    {
-      "year": 2018,
-      "skill": [
-        {
-          "name": "JAVA",
-          "icon": "/images/java-original.svg"
-        }
-      ]
-    },
-    {
-      "year": 2019,
-      "skill": [
-        {
-          "name": "JavaScript",
-          "icon": "/images/javascript-original.svg"
-        }
-      ]
-    },
-    {
-      "year": 2020,
-      "skill": [
-        {
-          "name": "Node.js",
-          "icon": "/images/nodejs-original.svg"
+          "name": "TailwindCSS",
+          "icon": "/images/tailwindcss-plain.svg"
         },
         {
-          "name": "Express.js",
-          "icon": "/images/express-original.svg"
-        },
-        {
-          "name": "Bootstrap",
-          "icon": "/images/bootstrap-original.svg"
-        }
-      ]
-    },
-    {
-      "year": 2021,
-      "skill": [
-        {
-          "name": "Vue.js 2",
-          "icon": "/images/vuejs-original.svg"
-        },
-        {
-          "name": "Vuetify",
-          "icon": "/images/vuetify-original.svg"
-        },
-        {
-          "name": "MongoDB",
-          "icon": "/images/mongodb-original.svg"
+          "name": "Spring Boot",
+          "icon": "images/nodejs-original.svg"
         }
       ]
     },
@@ -83,19 +35,67 @@
       ]
     },
     {
-      "year": 2023,
+      "year": 2021,
       "skill": [
         {
-          "name": "Svelte",
-          "icon": "/images/svelte-original.svg"
+          "name": "Vue.js 2",
+          "icon": "/images/vuejs-original.svg"
         },
         {
-          "name": "TailwindCSS",
-          "icon": "/images/tailwindcss-plain.svg"
+          "name": "Vuetify",
+          "icon": "/images/vuetify-original.svg"
         },
         {
-          "name": "Spring Boot",
-          "icon": "images/nodejs-original.svg"
+          "name": "MongoDB",
+          "icon": "/images/mongodb-original.svg"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "skill": [
+        {
+          "name": "Node.js",
+          "icon": "/images/nodejs-original.svg"
+        },
+        {
+          "name": "Express.js",
+          "icon": "/images/express-original.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "/images/bootstrap-original.svg"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "skill": [
+        {
+          "name": "JavaScript",
+          "icon": "/images/javascript-original.svg"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "skill": [
+        {
+          "name": "JAVA",
+          "icon": "/images/java-original.svg"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "skill": [
+        {
+          "name": "HTML",
+          "icon": "/images/html5-original.svg"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css3-original.svg"
         }
       ]
     }
