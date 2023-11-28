@@ -6,7 +6,7 @@ const config: Config = {
         repo: 'tostu/tostu.dev',
         branch: "master",
         api_root: "https://api.github.com",
-        base_url: "tostu.dev",
+        base_url: "https://tostu.dev",
         site_domain: "tostu.dev",
         auth_endpoint: "api/auth"
     },
