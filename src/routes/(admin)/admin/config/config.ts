@@ -3,8 +3,8 @@ import type { Config } from "@staticcms/core";
 const config: Config = {
     backend: { name: "github", repo: 'tostu/tostu.dev', branch: "master" },
     // local_backend: true,
-    media_folder: "src/lib/assets/images",
-    public_folder: "src/lib/assets/images",
+    media_folder: "static/images",
+    public_folder: "images",
     collections: [
         {
             name: 'pages',

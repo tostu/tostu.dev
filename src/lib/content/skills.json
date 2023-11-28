@@ -5,11 +5,11 @@
       "skill": [
         {
           "name": "HTML",
-          "icon": "src/lib/assets/images/html5-original.svg"
+          "icon": "/images/html5-original.svg"
         },
         {
           "name": "CSS",
-          "icon": "src/lib/assets/images/css3-original.svg"
+          "icon": "/images/css3-original.svg"
         }
       ]
     },
@@ -18,7 +18,7 @@
       "skill": [
         {
           "name": "JAVA",
-          "icon": "src/lib/assets/images/java-original.svg"
+          "icon": "/images/java-original.svg"
         }
       ]
     },
@@ -27,7 +27,7 @@
       "skill": [
         {
           "name": "JavaScript",
-          "icon": "src/lib/assets/images/javascript-original.svg"
+          "icon": "/images/javascript-original.svg"
         }
       ]
     },
@@ -36,15 +36,15 @@
       "skill": [
         {
           "name": "Node.js",
-          "icon": "src/lib/assets/images/nodejs-original.svg"
+          "icon": "/images/nodejs-original.svg"
         },
         {
           "name": "Express.js",
-          "icon": "src/lib/assets/images/express-original.svg"
+          "icon": "/images/express-original.svg"
         },
         {
           "name": "Bootstrap",
-          "icon": "src/lib/assets/images/bootstrap-original.svg"
+          "icon": "/images/bootstrap-original.svg"
         }
       ]
     },
@@ -53,15 +53,15 @@
       "skill": [
         {
           "name": "Vue.js 2",
-          "icon": "src/lib/assets/images/vuejs-original.svg"
+          "icon": "/images/vuejs-original.svg"
         },
         {
           "name": "Vuetify",
-          "icon": "src/lib/assets/images/vuetify-original.svg"
+          "icon": "/images/vuetify-original.svg"
         },
         {
           "name": "MongoDB",
-          "icon": "src/lib/assets/images/mongodb-original.svg"
+          "icon": "/images/mongodb-original.svg"
         }
       ]
     },
@@ -70,15 +70,15 @@
       "skill": [
         {
           "name": "MySQL",
-          "icon": "src/lib/assets/images/mysql-original-wordmark.svg"
+          "icon": "/images/mysql-original-wordmark.svg"
         },
         {
           "name": "Coffeescript",
-          "icon": "src/lib/assets/images/coffeescript-original.svg"
+          "icon": "/images/coffeescript-original.svg"
         },
         {
           "name": "Docker",
-          "icon": "src/lib/assets/images/docker-plain-wordmark.svg"
+          "icon": "/images/docker-plain-wordmark.svg"
         }
       ]
     },
@@ -87,15 +87,15 @@
       "skill": [
         {
           "name": "Svelte",
-          "icon": "src/lib/assets/images/svelte-original.svg"
+          "icon": "/images/svelte-original.svg"
         },
         {
           "name": "TailwindCSS",
-          "icon": "src/lib/assets/images/tailwindcss-plain.svg"
+          "icon": "/images/tailwindcss-plain.svg"
         },
         {
           "name": "Spring Boot",
-          "icon": "src/lib/assets/images/spring-original.svg"
+          "icon": "/images/spring-original.svg"
         }
       ]
     }
