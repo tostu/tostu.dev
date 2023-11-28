@@ -1,6 +1,4 @@
 <script>
-    import Icon from '@iconify/svelte';
-
     import skills from '$lib/content/skills.json'
 
     const skillPerYearList = skills.year

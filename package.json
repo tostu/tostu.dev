@@ -40,6 +40,8 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/press-start-2p": "^5.0.17",
+		"@iconify/icons-pixelarticons": "^1.2.5",
+		"@iconify/svelte": "^3.1.4",
 		"@staticcms/core": "^3.4.5"
 	}
 }
