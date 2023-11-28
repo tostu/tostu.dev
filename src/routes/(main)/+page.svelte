@@ -1,6 +1,7 @@
 <script>
     import avatar from "$lib/assets/images/tostu_avatar.png"
     import Personals from "$lib/components/Personals.svelte";
+    import '@fontsource/press-start-2p/latin.css';
 
 </script>
 
@@ -27,5 +28,9 @@
 <style>
     h1,h3{
         color: rgba(255, 255, 245, .86);
+    }
+
+    h1 {
+        font-family: 'Press Start 2P', sans-serif;
     }
 </style>
