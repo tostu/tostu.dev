@@ -8,6 +8,7 @@ const config: Config = {
         api_root: "https://api.github.com",
         base_url: "tostu.dev",
         site_domain: "tostu.dev",
+        auth_endpoint: "api/auth"
     },
     // local_backend: true,
     media_folder: "static/images",
