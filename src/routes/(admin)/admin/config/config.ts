@@ -7,7 +7,9 @@ const config: Config = {
         branch: "master",
         api_root: "https://api.github.com",
         base_url: "https://api.netlify.com",
-        app_id: "c1c3be7fa1aa599b444a"
+        app_id: "c1c3be7fa1aa599b444a",
+        site_domain: "tostu.dev",
+        auth_endpoint: "auth"
     },
     // local_backend: true,
     media_folder: "static/images",
