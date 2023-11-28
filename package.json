@@ -18,6 +18,7 @@
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-cloudflare": "^2.3.3",
 		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/enhanced-img": "^0.1.5",
 		"@sveltejs/kit": "^1.27.4",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
@@ -42,6 +43,6 @@
 		"@fontsource/press-start-2p": "^5.0.17",
 		"@iconify/icons-pixelarticons": "^1.2.5",
 		"@iconify/svelte": "^3.1.4",
-		"@staticcms/core": "^3.4.5"
+		"@staticcms/core": "^0.3.7"
 	}
 }
