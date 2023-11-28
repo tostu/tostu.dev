@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "vite dev --host",
 		"cmsproxy": "npx @staticcms/proxy-server",
-		"build": "vite build && cp _routes.json ./build/",
+		"build": "vite build",
 		"preview": "vite preview --host",
 		"test": "playwright test",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
