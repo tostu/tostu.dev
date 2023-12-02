@@ -1,3 +1,8 @@
 {
-  "title": "test"
+  "en": {
+    "title": "Home"
+  },
+  "de": {
+    "title": "Home"
+  }
 }
