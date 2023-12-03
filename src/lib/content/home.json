@@ -1,8 +1,16 @@
 {
   "en": {
-    "title": "Home"
+    "title": "Home",
+    "personal": [
+      {
+        "topic": "test",
+        "text": "test",
+        "icon": "images/mysql-original-wordmark.svg"
+      }
+    ]
   },
   "de": {
-    "title": "Home"
+    "title": "Home",
+    "personal": []
   }
 }
