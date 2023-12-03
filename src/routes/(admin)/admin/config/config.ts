@@ -1,70 +1,24 @@
-import type { Config } from "@staticcms/core";
+import page from './collections/page';
 
-const config: Config = {
-    backend: {
-        name: "github",
-        repo: 'tostu/tostu.dev',
-        branch: "master",
-        api_root: "https://api.github.com",
-        base_url: "https://tostu.dev",
-        site_domain: "tostu.dev",
-        auth_endpoint: "api/auth"
-    },
-    // local_backend: true,
-    media_folder: "static/images",
-    public_folder: "images",
-    collections: [
-        {
-            name: 'pages',
-            label: 'Pages',
-            format: "json",
-            files: [
-                {
-                    name: 'skills',
-                    label: 'Skills Page',
-                    file: 'src/lib/content/skills.json',
-                    fields: [
-                        {
-                            name: 'year',
-                            label: 'Year',
-                            widget: 'list',
-                            fields: [
-                                {
-                                    name: 'year',
-                                    label: 'Year',
-                                    widget: 'number',
-                                    value_type: 'int',
-                                    min: 2000,
-                                    max: 3000,
-                                    step: 1,
-                                },
-                                {
-                                    name: 'skill',
-                                    label: 'Skill',
-                                    widget: 'list',
-                                    fields: [
-                                        { name: 'name', label: 'Name', widget: 'string' },
-                                        {
-                                            name: 'description',
-                                            label: 'Description',
-                                            widget: 'text',
-                                            required: false
-                                        },
-                                        {
-                                            name: 'icon',
-                                            label: 'Skill icon',
-                                            widget: 'image',
-                                            choose_url: true
-                                        }
-                                    ],
-                                },
-                            ],
-                        },
-                    ],
-                },
-            ],
-        },
-    ],
+const config = {
+	backend: {
+		name: 'github',
+		repo: 'tostu/tostu.dev',
+		branch: 'master',
+		api_root: 'https://api.github.com',
+		base_url: 'https://tostu.dev',
+		site_domain: 'tostu.dev',
+		auth_endpoint: 'api/auth'
+	},
+	i18n: {
+		structure: 'single_file',
+		locales: ['en', 'de'],
+		defaultLocale: 'en'
+	},
+	// local_backend: true,
+	media_folder: 'static/images',
+	public_folder: 'images',
+	collections: [page]
 };
 
 export default config;
